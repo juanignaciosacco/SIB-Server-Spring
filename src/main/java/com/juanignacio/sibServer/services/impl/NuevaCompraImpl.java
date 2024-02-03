@@ -18,7 +18,7 @@ public class NuevaCompraImpl extends EmailService {
         try {
             MimeMessageHelper helper = new MimeMessageHelper(message, true);
             helper.setFrom(email);
-            helper.setTo("juanchisacco@gmail.com");
+            helper.setTo("sibhouseuy@gmail.com");
             helper.setSubject("Nueva compra en SIB Shop");
             helper.setText(mensaje, true);
             javaMailSender.send(message);
